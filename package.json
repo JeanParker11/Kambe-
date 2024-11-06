@@ -1,0 +1,15 @@
+{
+  "name": "kambe-blog",
+  "version": "1.0.0",
+  "description": "Un blog où les administrateurs peuvent publier des articles, des vidéos, des audios et des images.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg-promise": "^10.9.0"
+  }
+}
